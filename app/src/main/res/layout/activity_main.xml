@@ -49,12 +49,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_below="@+id/aboveContent">
-    <TextView
-        android:id="@+id/dobasok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dobások: 0"
-        android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/dobasok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dobások: 0"
+            android:textSize="25sp" />
 
     <TextView
         android:id="@+id/gyozelem"
